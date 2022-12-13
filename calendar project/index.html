@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          src="/Images/Logo/png/logo-no-background.png"
+          alt=""
+          class="logo"
+        />
+      </div>
+    </header>
+    <form class="input-container">
+      <div>
+        <input
+          type="date"
+          class="date-input begin-date"
+          placeholder="Enter start date"
+        />
+      </div>
+      <div>
+        <input
+          type="date"
+          class="date-input end-date"
+          placeholder="Enter end date"
+        />
+      </div>
+      <div>
+        <input type="checkbox" name="MJS" id="1" class="check1" />Mardi, Jeudi,
+        Samedi
+      </div>
+      <div>
+        <input type="checkbox" name="LMV" id="2" class="check2" />Lundi,
+        Mercredi, Vendredi
+      </div>
+      <div class="btns">
+        <button class="submit-btn btn">Submit</button>
+        <button class="clear-btn btn">Clear</button>
+      </div>
+    </form>
+    <div class="calendar"></div>
+  </body>
+  <script src="/script.js"></script>
+</html>
